@@ -1,0 +1,9 @@
+.seminars {
+  display: flex;
+  flex-direction: column;
+}
+
+.seminars-img {
+  width: 250px;
+  height: 250px;
+}
