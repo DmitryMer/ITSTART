@@ -95,7 +95,7 @@ function SeminarsList() {
             <p>
               <strong>{s.title}</strong> - {s.description}
             </p>
-            <img className="seminars-img" src={s.photo} />
+            <img className="seminars-img" alt="img" src={s.photo} />
             {/* Кнопка удаления семинара */}
             <div>
               <button onClick={() => handleDeleteSeminar(s.id)}>Удалить</button>
